@@ -39,16 +39,12 @@ python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 
 python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars_tiny.avi --tiny --custom_feature_extractor_model
 
 ## Access weights and dataset
-weights - https://drive.google.com/drive/folders/1Ld_FgcD9x1Q7HfC0ZxiNeVf2M4-Y4EHt?usp=sharing
-dataset - 
+weights and dataset - https://drive.google.com/drive/folders/1lWpMoyE733gAqb6XMG_MNQGOdcaKD79s?usp=drive_link
 
 Feature Extraction model Training – 
 Dataset comprising of about 184 different classes of cars.
 Total training images are about 18,400 cropped images of cars.
-![Alt text](custom_feature_extractor/vehicle_dataset_train/1/S01_c002_1_1.jpg)
-![Alt text](custom_feature_extractor/vehicle_dataset_train/1/S01_c002_5_1.jpg)
-![Alt text](custom_feature_extractor/vehicle_dataset_train/124/S01_c001_537_40.jpg)
-![Alt text](custom_feature_extractor/vehicle_dataset_train/124/S01_c003_521_40.jpg)
+
 
 ## Output - 
 ![Alt text](outputs/image.png)
