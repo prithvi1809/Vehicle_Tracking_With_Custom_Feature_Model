@@ -1,0 +1,16 @@
+*.jpg
+*.png
+*.avi
+*.pb
+*.zip
+*.gif
+*.mp4
+*.weights
+checkpoints/yolov4/variables
+custom_feature_extractor/custom_feature_model
+custom_feature_extractor/deepsort_feature_model
+custom_feature_extractor/vehicle_dataset_test
+custom_feature_extractor/vehicle_dataset_train
+*.pyc
+.vscode
+checkpoints/

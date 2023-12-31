@@ -1,0 +1,9 @@
+python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4 --model yolov4
+
+Train-
+cd model_data
+python feature_extraction_train.py
+
+
+python object_tracker.py --weights ./checkpoints/yolov4 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars.avi
+python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars_tiny.avi --tiny
