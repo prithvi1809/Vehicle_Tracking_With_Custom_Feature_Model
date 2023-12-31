@@ -49,7 +49,7 @@ Total training images are about 18,400 cropped images of cars.
 ## Output - 
 ![Alt text](outputs/image.png)
 
-video demo - ![Video Demo](outputs/cars.avi)
+video demo - [![Video Demo](outputs/cars.jpg)](outputs/cars.avi)
 
 
 
