@@ -1,7 +1,7 @@
 *.pb
 *.zip
 *.gif
-*.mp4
+
 *.weights
 checkpoints/yolov4/variables
 custom_feature_extractor/custom_feature_model
