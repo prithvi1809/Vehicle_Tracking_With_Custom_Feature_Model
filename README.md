@@ -88,7 +88,27 @@ If you want to use yolov4-tiny.weights, a smaller model that is faster at runnin
 
 
 ## Commands to run - 
+### Save Feature extractor model
+###### For Deepsort Feature Model
+```
+cd custom_feature_extractor
+mkdir deepsort_feature_model
+cd deepsort_feature_model
+// download mars-small128.pb model and place here
+```
+or
+###### For Custom Feature Model
+```
+cd custom_feature_extractor
+mkdir custom_feature_model
+// download saved_model.pb model and place here.
+```
 
+For training and testing feature model
+download the zip file and extract in the feature_extractor_model folder.
+```
+python feature_extraction_train.py 
+```
 ### Save YOLOv4 Model
 ```
 python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4 --model yolov4
