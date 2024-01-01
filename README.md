@@ -37,17 +37,18 @@ weights and dataset - https://drive.google.com/drive/folders/1lWpMoyE733gAqb6XMG
 ## Output - 
 ![Alt text](outputs/image.png)
 
-video demo - [![Video Demo](outputs/cars_output.jpg)](outputs/cars_output.mp4)
-
-
-
 
 # INSTALLATION
-## yolov4-deepsort
-
-
+Clone the repository - 
+```
+git clone https://github.com/prithvi1809/Vehicle_Tracking_With_Custom_Feature_Model.git
+```
+```
+cd Vehicle_Tracking_With_Custom_Feature_Model
+```
 
 ### Getting Started
+
 To get started, install the proper dependencies either via Anaconda or Pip. I recommend Anaconda route for people using a GPU as it configures CUDA toolkit version for you.
 
 ### Conda (Recommended)
@@ -78,6 +79,8 @@ https://developer.nvidia.com/cuda-10.1-download-archive-update2
 ## Downloading Official YOLOv4 Pre-trained Weights
 Our object tracker uses YOLOv4 to make the object detections, which deep sort then uses to track. There exists an official pre-trained YOLOv4 object detector model that is able to detect 80 classes. For easy demo purposes we will use the pre-trained weights for our tracker.
 Download pre-trained yolov4.weights file: https://drive.google.com/open?id=1cewMfusmPjYWbrnuJRuKhPMwRe_b9PaT
+#### or 
+https://drive.google.com/drive/folders/1lWpMoyE733gAqb6XMG_MNQGOdcaKD79s?usp=drive_link
 
 Copy and paste yolov4.weights from your downloads folder into the 'data' folder of this repository.
 
