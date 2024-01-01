@@ -109,31 +109,32 @@ download the zip file and extract in the feature_extractor_model folder.
 ```
 python feature_extraction_train.py 
 ```
-### Save YOLOv4 Model
+### YOLOv4 Model
+#### 1. Save Yolov4 model
 ```
 python save_model.py --weights ./data/yolov4.weights --output ./checkpoints/yolov4 --model yolov4
 ```
-### Run yolov4 deep sort object tracker on video
+#### 2. Run yolov4 deep sort object tracker on video
 ```
 python object_tracker.py --weights ./checkpoints/yolov4 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars.avi
 ```
-
-### Run yolov4 deep sort object tracker with custom trained feature model on video
+or
+#### Run yolov4 deep sort object tracker with custom trained feature model on video
 ```
 python object_tracker.py --weights ./checkpoints/yolov4 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars.avi --custom_feature_extractor_model
 ```
-
-### save yolov4-tiny model
+### YOLOV4-TINY
+#### 1. Save YOLOv4-TINY model
 ```
 python save_model.py --weights ./data/yolov4-tiny.weights --output ./checkpoints/yolov4-tiny-416 --model yolov4 --tiny
 ```
 
-### Run yolov4-tiny object tracker on video.
+#### 2. Run yolov4-tiny object tracker on video.
 ```
 python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars_tiny.avi --tiny
 ```
-
-### Run yolov4-tiny object tracker with custom trained feature model on video.
+or
+#### Run yolov4-tiny object tracker with custom trained feature model on video.
 ```
 python object_tracker.py --weights ./checkpoints/yolov4-tiny-416 --model yolov4 --video ./data/video/cars.mp4 --output ./outputs/cars_tiny.avi --tiny --custom_feature_extractor_model
 ```
